@@ -1,0 +1,28 @@
+{
+	"name": "wa-bot-baileys",
+	"version": "1.0.0",
+	"description": "Wa Bot Baileys",
+	"main": "src/main.ts",
+	"scripts": {
+		"dev": "nodemon --watch src --ext ts --exec bun src/main.ts",
+		"start": "bun run src/main.ts"
+	},
+	"keywords": [],
+	"author": "111FMLabs",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"@types/node": "^22.14.1",
+		"baileys": "^6.17.16",
+		"qrcode-terminal": "^0.12.0"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"nodemon": "^3.1.9",
+		"ts-node": "^10.9.2"
+	},
+	"private": true,
+	"peerDependencies": {
+		"typescript": "^5.8.3"
+	}
+}

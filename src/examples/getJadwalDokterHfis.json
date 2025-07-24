@@ -1,0 +1,48 @@
+{
+	"status": 200,
+	"success": true,
+	"total": 1,
+	"data": [
+		{
+			"ID": "50",
+			"KD_DOKTER": "426410",
+			"NM_DOKTER": "DR. RESY ROSALINA",
+			"KD_SUB_SPESIALIS": "INT",
+			"KD_POLI": "INT",
+			"HARI": "1",
+			"TANGGAL": null,
+			"NM_HARI": "SENIN",
+			"JAM": "13:00-16:00",
+			"JAM_MULAI": "13:00:00",
+			"JAM_SELESAI": "16:00:00",
+			"KAPASITAS": "80",
+			"KOUTA_JKN": "64",
+			"KOUTA_NON_JKN": "16",
+			"LIBUR": "0",
+			"STATUS": "1",
+			"INPUT_TIME": null,
+			"UPDATE_TIME": null,
+			"REFERENSI": {
+				"POLI": {
+					"ID": "64",
+					"KDPOLI": "INT",
+					"NMPOLI": "PENYAKIT DALAM",
+					"KDSUBSPESIALIS": "004",
+					"NMSUBSPESIALIS": "ALERGI-IMMUNOLOGI KLINIK",
+					"ANTRIAN": "A",
+					"STATUS": "1"
+				},
+				"SUBSPESIALIS": {
+					"ID": "76",
+					"KDPOLI": "INT",
+					"NMPOLI": "PENYAKIT DALAM",
+					"KDSUBSPESIALIS": "INT",
+					"NMSUBSPESIALIS": "PENYAKIT DALAM",
+					"ANTRIAN": "A",
+					"STATUS": "1"
+				}
+			}
+		}
+	],
+	"detail": "Jadwal dokter ditemukan"
+}

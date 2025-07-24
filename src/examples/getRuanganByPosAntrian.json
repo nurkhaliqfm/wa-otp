@@ -1,0 +1,575 @@
+{
+	"success": true,
+	"total": 9,
+	"data": [
+		{
+			"ID": "102040101",
+			"DESKRIPSI": "Poli Mata",
+			"ANTRIAN": "A",
+			"STATUS": "1",
+			"DEFAULT": "1",
+			"LIMIT_DAFTAR": "1000",
+			"DURASI_PENDAFTARAN": "6",
+			"DURASI_PELAYANAN": "6",
+			"MULAI": "07:00:00",
+			"JUMLAH_MEJA": "1",
+			"PERSENTASE_KOUTA": "80",
+			"PERSENTASE_KOUTA_NON_JKN": "20",
+			"REFERENSI": {
+				"PENJAMIN": {
+					"ID": "1",
+					"PENJAMIN": "2",
+					"RUANGAN_PENJAMIN": "MAT",
+					"RUANGAN_RS": "102040101",
+					"STATUS": "1",
+					"REFERENSI": {
+						"PENJAMIN": {
+							"TABEL_ID": "4274",
+							"JENIS": "10",
+							"ID": "2",
+							"DESKRIPSI": "BPJS / JKN",
+							"REF_ID": "2",
+							"TEKS": "",
+							"CONFIG": "{\"sep\": {\"regExp\": \"[^a-zA-Z0-9]\", \"maxLength\": 19, \"minLength\": 19}, \"kptl\": 1, \"regExp\": \"[^0-9]\", \"maxLength\": 13, \"minLength\": 13}",
+							"SCORING": "0",
+							"STATUS": "1"
+						},
+						"RUANGAN_RS": {
+							"ID": "102040101",
+							"JENIS": "5",
+							"JENIS_KUNJUNGAN": "1",
+							"REF_ID": "0",
+							"DESKRIPSI": "Poli Mata",
+							"TANGGAL": "2024-04-06 13:27:58",
+							"AKSES_PERMINTAAN": "1",
+							"STATUS": "1",
+							"REFERENSI": {
+								"JENIS_KUNJUNGAN": {
+									"TABEL_ID": "171",
+									"JENIS": "15",
+									"ID": "1",
+									"DESKRIPSI": "Rawat Jalan",
+									"REF_ID": "",
+									"TEKS": "",
+									"CONFIG": "{\"o2\": false, \"bhp\": false, \"bon\": false, \"lab\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"rad\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"jenis\": 1, \"resep\": {\"order\": true, \"riwayat\": false}, \"konsul\": true, \"mutasi\": false, \"pulang\": false, \"farmasi\": {\"retur\": false, \"layanan\": false}, \"operasi\": true, \"rujukan\": true, \"tindakan\": {\"layanan\": true, \"riwayat\": false}, \"rekammedis\": true, \"dapatDiorder\": false, \"dapatDikonsul\": true}",
+									"SCORING": "0",
+									"STATUS": "1"
+								}
+							}
+						}
+					},
+					"BPJS": {
+						"ID": "124",
+						"KDPOLI": "MAT",
+						"NMPOLI": "MATA",
+						"KDSUBSPESIALIS": "MAT",
+						"NMSUBSPESIALIS": "MATA",
+						"ANTRIAN": "A",
+						"STATUS": "1"
+					}
+				},
+				"PENJAMIN_RUANGAN": "MAT"
+			}
+		},
+		{
+			"ID": "102040102",
+			"DESKRIPSI": "Poli Sub Refraksi",
+			"ANTRIAN": "A",
+			"STATUS": "1",
+			"DEFAULT": "0",
+			"LIMIT_DAFTAR": "1000",
+			"DURASI_PENDAFTARAN": "6",
+			"DURASI_PELAYANAN": "6",
+			"MULAI": "07:00:00",
+			"JUMLAH_MEJA": "1",
+			"PERSENTASE_KOUTA": "80",
+			"PERSENTASE_KOUTA_NON_JKN": "20",
+			"REFERENSI": {
+				"PENJAMIN": {
+					"ID": "4",
+					"PENJAMIN": "2",
+					"RUANGAN_PENJAMIN": "140",
+					"RUANGAN_RS": "102040102",
+					"STATUS": "1",
+					"REFERENSI": {
+						"PENJAMIN": {
+							"TABEL_ID": "4274",
+							"JENIS": "10",
+							"ID": "2",
+							"DESKRIPSI": "BPJS / JKN",
+							"REF_ID": "2",
+							"TEKS": "",
+							"CONFIG": "{\"sep\": {\"regExp\": \"[^a-zA-Z0-9]\", \"maxLength\": 19, \"minLength\": 19}, \"kptl\": 1, \"regExp\": \"[^0-9]\", \"maxLength\": 13, \"minLength\": 13}",
+							"SCORING": "0",
+							"STATUS": "1"
+						},
+						"RUANGAN_RS": {
+							"ID": "102040102",
+							"JENIS": "5",
+							"JENIS_KUNJUNGAN": "1",
+							"REF_ID": "0",
+							"DESKRIPSI": "Poli Sub Refraksi",
+							"TANGGAL": "2024-04-06 13:27:58",
+							"AKSES_PERMINTAAN": "0",
+							"STATUS": "1",
+							"REFERENSI": {
+								"JENIS_KUNJUNGAN": {
+									"TABEL_ID": "171",
+									"JENIS": "15",
+									"ID": "1",
+									"DESKRIPSI": "Rawat Jalan",
+									"REF_ID": "",
+									"TEKS": "",
+									"CONFIG": "{\"o2\": false, \"bhp\": false, \"bon\": false, \"lab\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"rad\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"jenis\": 1, \"resep\": {\"order\": true, \"riwayat\": false}, \"konsul\": true, \"mutasi\": false, \"pulang\": false, \"farmasi\": {\"retur\": false, \"layanan\": false}, \"operasi\": true, \"rujukan\": true, \"tindakan\": {\"layanan\": true, \"riwayat\": false}, \"rekammedis\": true, \"dapatDiorder\": false, \"dapatDikonsul\": true}",
+									"SCORING": "0",
+									"STATUS": "1"
+								}
+							}
+						}
+					},
+					"BPJS": {
+						"ID": "120",
+						"KDPOLI": "MAT",
+						"NMPOLI": "MATA",
+						"KDSUBSPESIALIS": "140",
+						"NMSUBSPESIALIS": "REFRAKSI LENSA KONTAK",
+						"ANTRIAN": "A",
+						"STATUS": "1"
+					}
+				},
+				"PENJAMIN_RUANGAN": "140"
+			}
+		},
+		{
+			"ID": "102040103",
+			"DESKRIPSI": "Poli Interna",
+			"ANTRIAN": "A",
+			"STATUS": "1",
+			"DEFAULT": "0",
+			"LIMIT_DAFTAR": "1000",
+			"DURASI_PENDAFTARAN": "6",
+			"DURASI_PELAYANAN": "6",
+			"MULAI": "07:00:00",
+			"JUMLAH_MEJA": "1",
+			"PERSENTASE_KOUTA": "80",
+			"PERSENTASE_KOUTA_NON_JKN": "20",
+			"REFERENSI": {
+				"PENJAMIN": {
+					"ID": "6",
+					"PENJAMIN": "2",
+					"RUANGAN_PENJAMIN": "INT",
+					"RUANGAN_RS": "102040103",
+					"STATUS": "1",
+					"REFERENSI": {
+						"PENJAMIN": {
+							"TABEL_ID": "4274",
+							"JENIS": "10",
+							"ID": "2",
+							"DESKRIPSI": "BPJS / JKN",
+							"REF_ID": "2",
+							"TEKS": "",
+							"CONFIG": "{\"sep\": {\"regExp\": \"[^a-zA-Z0-9]\", \"maxLength\": 19, \"minLength\": 19}, \"kptl\": 1, \"regExp\": \"[^0-9]\", \"maxLength\": 13, \"minLength\": 13}",
+							"SCORING": "0",
+							"STATUS": "1"
+						},
+						"RUANGAN_RS": {
+							"ID": "102040103",
+							"JENIS": "5",
+							"JENIS_KUNJUNGAN": "1",
+							"REF_ID": "0",
+							"DESKRIPSI": "Poli Interna",
+							"TANGGAL": "2024-04-06 13:27:58",
+							"AKSES_PERMINTAAN": "1",
+							"STATUS": "1",
+							"REFERENSI": {
+								"JENIS_KUNJUNGAN": {
+									"TABEL_ID": "171",
+									"JENIS": "15",
+									"ID": "1",
+									"DESKRIPSI": "Rawat Jalan",
+									"REF_ID": "",
+									"TEKS": "",
+									"CONFIG": "{\"o2\": false, \"bhp\": false, \"bon\": false, \"lab\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"rad\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"jenis\": 1, \"resep\": {\"order\": true, \"riwayat\": false}, \"konsul\": true, \"mutasi\": false, \"pulang\": false, \"farmasi\": {\"retur\": false, \"layanan\": false}, \"operasi\": true, \"rujukan\": true, \"tindakan\": {\"layanan\": true, \"riwayat\": false}, \"rekammedis\": true, \"dapatDiorder\": false, \"dapatDikonsul\": true}",
+									"SCORING": "0",
+									"STATUS": "1"
+								}
+							}
+						}
+					},
+					"BPJS": {
+						"ID": "76",
+						"KDPOLI": "INT",
+						"NMPOLI": "PENYAKIT DALAM",
+						"KDSUBSPESIALIS": "INT",
+						"NMSUBSPESIALIS": "PENYAKIT DALAM",
+						"ANTRIAN": "A",
+						"STATUS": "1"
+					}
+				},
+				"PENJAMIN_RUANGAN": "INT"
+			}
+		},
+		{
+			"ID": "102040105",
+			"DESKRIPSI": "Poli Mata 4",
+			"ANTRIAN": "A",
+			"STATUS": "1",
+			"DEFAULT": "0",
+			"LIMIT_DAFTAR": "1000",
+			"DURASI_PENDAFTARAN": "6",
+			"DURASI_PELAYANAN": "15",
+			"MULAI": "07:00:00",
+			"JUMLAH_MEJA": "1",
+			"PERSENTASE_KOUTA": "80",
+			"PERSENTASE_KOUTA_NON_JKN": "20",
+			"REFERENSI": {
+				"PENJAMIN": {
+					"ID": "10",
+					"PENJAMIN": "2",
+					"RUANGAN_PENJAMIN": "MAT",
+					"RUANGAN_RS": "102040105",
+					"STATUS": "1",
+					"REFERENSI": {
+						"PENJAMIN": {
+							"TABEL_ID": "4274",
+							"JENIS": "10",
+							"ID": "2",
+							"DESKRIPSI": "BPJS / JKN",
+							"REF_ID": "2",
+							"TEKS": "",
+							"CONFIG": "{\"sep\": {\"regExp\": \"[^a-zA-Z0-9]\", \"maxLength\": 19, \"minLength\": 19}, \"kptl\": 1, \"regExp\": \"[^0-9]\", \"maxLength\": 13, \"minLength\": 13}",
+							"SCORING": "0",
+							"STATUS": "1"
+						},
+						"RUANGAN_RS": {
+							"ID": "102040105",
+							"JENIS": "5",
+							"JENIS_KUNJUNGAN": "1",
+							"REF_ID": "0",
+							"DESKRIPSI": "Poli Mata 4",
+							"TANGGAL": "2024-04-26 10:31:02",
+							"AKSES_PERMINTAAN": "1",
+							"STATUS": "1",
+							"REFERENSI": {
+								"JENIS_KUNJUNGAN": {
+									"TABEL_ID": "171",
+									"JENIS": "15",
+									"ID": "1",
+									"DESKRIPSI": "Rawat Jalan",
+									"REF_ID": "",
+									"TEKS": "",
+									"CONFIG": "{\"o2\": false, \"bhp\": false, \"bon\": false, \"lab\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"rad\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"jenis\": 1, \"resep\": {\"order\": true, \"riwayat\": false}, \"konsul\": true, \"mutasi\": false, \"pulang\": false, \"farmasi\": {\"retur\": false, \"layanan\": false}, \"operasi\": true, \"rujukan\": true, \"tindakan\": {\"layanan\": true, \"riwayat\": false}, \"rekammedis\": true, \"dapatDiorder\": false, \"dapatDikonsul\": true}",
+									"SCORING": "0",
+									"STATUS": "1"
+								}
+							}
+						}
+					},
+					"BPJS": {
+						"ID": "124",
+						"KDPOLI": "MAT",
+						"NMPOLI": "MATA",
+						"KDSUBSPESIALIS": "MAT",
+						"NMSUBSPESIALIS": "MATA",
+						"ANTRIAN": "A",
+						"STATUS": "1"
+					}
+				},
+				"PENJAMIN_RUANGAN": "MAT"
+			}
+		},
+		{
+			"ID": "102040106",
+			"DESKRIPSI": "Poli Mata 5",
+			"ANTRIAN": "A",
+			"STATUS": "1",
+			"DEFAULT": "0",
+			"LIMIT_DAFTAR": "1000",
+			"DURASI_PENDAFTARAN": "6",
+			"DURASI_PELAYANAN": "15",
+			"MULAI": "07:00:00",
+			"JUMLAH_MEJA": "1",
+			"PERSENTASE_KOUTA": "80",
+			"PERSENTASE_KOUTA_NON_JKN": "20",
+			"REFERENSI": {
+				"PENJAMIN": {
+					"ID": "11",
+					"PENJAMIN": "2",
+					"RUANGAN_PENJAMIN": "MAT",
+					"RUANGAN_RS": "102040106",
+					"STATUS": "1",
+					"REFERENSI": {
+						"PENJAMIN": {
+							"TABEL_ID": "4274",
+							"JENIS": "10",
+							"ID": "2",
+							"DESKRIPSI": "BPJS / JKN",
+							"REF_ID": "2",
+							"TEKS": "",
+							"CONFIG": "{\"sep\": {\"regExp\": \"[^a-zA-Z0-9]\", \"maxLength\": 19, \"minLength\": 19}, \"kptl\": 1, \"regExp\": \"[^0-9]\", \"maxLength\": 13, \"minLength\": 13}",
+							"SCORING": "0",
+							"STATUS": "1"
+						},
+						"RUANGAN_RS": {
+							"ID": "102040106",
+							"JENIS": "5",
+							"JENIS_KUNJUNGAN": "1",
+							"REF_ID": "0",
+							"DESKRIPSI": "Poli Mata 5",
+							"TANGGAL": "2024-04-26 10:31:12",
+							"AKSES_PERMINTAAN": "1",
+							"STATUS": "1",
+							"REFERENSI": {
+								"JENIS_KUNJUNGAN": {
+									"TABEL_ID": "171",
+									"JENIS": "15",
+									"ID": "1",
+									"DESKRIPSI": "Rawat Jalan",
+									"REF_ID": "",
+									"TEKS": "",
+									"CONFIG": "{\"o2\": false, \"bhp\": false, \"bon\": false, \"lab\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"rad\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"jenis\": 1, \"resep\": {\"order\": true, \"riwayat\": false}, \"konsul\": true, \"mutasi\": false, \"pulang\": false, \"farmasi\": {\"retur\": false, \"layanan\": false}, \"operasi\": true, \"rujukan\": true, \"tindakan\": {\"layanan\": true, \"riwayat\": false}, \"rekammedis\": true, \"dapatDiorder\": false, \"dapatDikonsul\": true}",
+									"SCORING": "0",
+									"STATUS": "1"
+								}
+							}
+						}
+					},
+					"BPJS": {
+						"ID": "124",
+						"KDPOLI": "MAT",
+						"NMPOLI": "MATA",
+						"KDSUBSPESIALIS": "MAT",
+						"NMSUBSPESIALIS": "MATA",
+						"ANTRIAN": "A",
+						"STATUS": "1"
+					}
+				},
+				"PENJAMIN_RUANGAN": "MAT"
+			}
+		},
+		{
+			"ID": "102040107",
+			"DESKRIPSI": "Poli Mata 6",
+			"ANTRIAN": "A",
+			"STATUS": "1",
+			"DEFAULT": "0",
+			"LIMIT_DAFTAR": "1000",
+			"DURASI_PENDAFTARAN": "6",
+			"DURASI_PELAYANAN": "15",
+			"MULAI": "07:00:00",
+			"JUMLAH_MEJA": "1",
+			"PERSENTASE_KOUTA": "80",
+			"PERSENTASE_KOUTA_NON_JKN": "20",
+			"REFERENSI": {
+				"PENJAMIN": {
+					"ID": "12",
+					"PENJAMIN": "2",
+					"RUANGAN_PENJAMIN": "MAT",
+					"RUANGAN_RS": "102040107",
+					"STATUS": "1",
+					"REFERENSI": {
+						"PENJAMIN": {
+							"TABEL_ID": "4274",
+							"JENIS": "10",
+							"ID": "2",
+							"DESKRIPSI": "BPJS / JKN",
+							"REF_ID": "2",
+							"TEKS": "",
+							"CONFIG": "{\"sep\": {\"regExp\": \"[^a-zA-Z0-9]\", \"maxLength\": 19, \"minLength\": 19}, \"kptl\": 1, \"regExp\": \"[^0-9]\", \"maxLength\": 13, \"minLength\": 13}",
+							"SCORING": "0",
+							"STATUS": "1"
+						},
+						"RUANGAN_RS": {
+							"ID": "102040107",
+							"JENIS": "5",
+							"JENIS_KUNJUNGAN": "1",
+							"REF_ID": "0",
+							"DESKRIPSI": "Poli Mata 6",
+							"TANGGAL": "2024-04-26 10:31:21",
+							"AKSES_PERMINTAAN": "1",
+							"STATUS": "1",
+							"REFERENSI": {
+								"JENIS_KUNJUNGAN": {
+									"TABEL_ID": "171",
+									"JENIS": "15",
+									"ID": "1",
+									"DESKRIPSI": "Rawat Jalan",
+									"REF_ID": "",
+									"TEKS": "",
+									"CONFIG": "{\"o2\": false, \"bhp\": false, \"bon\": false, \"lab\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"rad\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"jenis\": 1, \"resep\": {\"order\": true, \"riwayat\": false}, \"konsul\": true, \"mutasi\": false, \"pulang\": false, \"farmasi\": {\"retur\": false, \"layanan\": false}, \"operasi\": true, \"rujukan\": true, \"tindakan\": {\"layanan\": true, \"riwayat\": false}, \"rekammedis\": true, \"dapatDiorder\": false, \"dapatDikonsul\": true}",
+									"SCORING": "0",
+									"STATUS": "1"
+								}
+							}
+						}
+					},
+					"BPJS": {
+						"ID": "124",
+						"KDPOLI": "MAT",
+						"NMPOLI": "MATA",
+						"KDSUBSPESIALIS": "MAT",
+						"NMSUBSPESIALIS": "MATA",
+						"ANTRIAN": "A",
+						"STATUS": "1"
+					}
+				},
+				"PENJAMIN_RUANGAN": "MAT"
+			}
+		},
+		{
+			"ID": "102040108",
+			"DESKRIPSI": "Poli Mata 9",
+			"ANTRIAN": "A",
+			"STATUS": "1",
+			"DEFAULT": "0",
+			"LIMIT_DAFTAR": "1000",
+			"DURASI_PENDAFTARAN": "6",
+			"DURASI_PELAYANAN": "15",
+			"MULAI": "07:00:00",
+			"JUMLAH_MEJA": "1",
+			"PERSENTASE_KOUTA": "80",
+			"PERSENTASE_KOUTA_NON_JKN": "20",
+			"REFERENSI": {
+				"PENJAMIN": {
+					"ID": "13",
+					"PENJAMIN": "2",
+					"RUANGAN_PENJAMIN": "MAT",
+					"RUANGAN_RS": "102040108",
+					"STATUS": "1",
+					"REFERENSI": {
+						"PENJAMIN": {
+							"TABEL_ID": "4274",
+							"JENIS": "10",
+							"ID": "2",
+							"DESKRIPSI": "BPJS / JKN",
+							"REF_ID": "2",
+							"TEKS": "",
+							"CONFIG": "{\"sep\": {\"regExp\": \"[^a-zA-Z0-9]\", \"maxLength\": 19, \"minLength\": 19}, \"kptl\": 1, \"regExp\": \"[^0-9]\", \"maxLength\": 13, \"minLength\": 13}",
+							"SCORING": "0",
+							"STATUS": "1"
+						},
+						"RUANGAN_RS": {
+							"ID": "102040108",
+							"JENIS": "5",
+							"JENIS_KUNJUNGAN": "1",
+							"REF_ID": "0",
+							"DESKRIPSI": "Poli Mata 9",
+							"TANGGAL": "2024-04-26 10:31:40",
+							"AKSES_PERMINTAAN": "1",
+							"STATUS": "1",
+							"REFERENSI": {
+								"JENIS_KUNJUNGAN": {
+									"TABEL_ID": "171",
+									"JENIS": "15",
+									"ID": "1",
+									"DESKRIPSI": "Rawat Jalan",
+									"REF_ID": "",
+									"TEKS": "",
+									"CONFIG": "{\"o2\": false, \"bhp\": false, \"bon\": false, \"lab\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"rad\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"jenis\": 1, \"resep\": {\"order\": true, \"riwayat\": false}, \"konsul\": true, \"mutasi\": false, \"pulang\": false, \"farmasi\": {\"retur\": false, \"layanan\": false}, \"operasi\": true, \"rujukan\": true, \"tindakan\": {\"layanan\": true, \"riwayat\": false}, \"rekammedis\": true, \"dapatDiorder\": false, \"dapatDikonsul\": true}",
+									"SCORING": "0",
+									"STATUS": "1"
+								}
+							}
+						}
+					},
+					"BPJS": {
+						"ID": "124",
+						"KDPOLI": "MAT",
+						"NMPOLI": "MATA",
+						"KDSUBSPESIALIS": "MAT",
+						"NMSUBSPESIALIS": "MATA",
+						"ANTRIAN": "A",
+						"STATUS": "1"
+					}
+				},
+				"PENJAMIN_RUANGAN": "MAT"
+			}
+		},
+		{
+			"ID": "102040109",
+			"DESKRIPSI": "Poli Mata 3",
+			"ANTRIAN": "A",
+			"STATUS": "1",
+			"DEFAULT": "0",
+			"LIMIT_DAFTAR": "1000",
+			"DURASI_PENDAFTARAN": "2",
+			"DURASI_PELAYANAN": "15",
+			"MULAI": "08:00:00",
+			"JUMLAH_MEJA": "1",
+			"PERSENTASE_KOUTA": "80",
+			"PERSENTASE_KOUTA_NON_JKN": "20",
+			"REFERENSI": {
+				"PENJAMIN": {
+					"ID": "14",
+					"PENJAMIN": "2",
+					"RUANGAN_PENJAMIN": "MAT",
+					"RUANGAN_RS": "102040109",
+					"STATUS": "1",
+					"REFERENSI": {
+						"PENJAMIN": {
+							"TABEL_ID": "4274",
+							"JENIS": "10",
+							"ID": "2",
+							"DESKRIPSI": "BPJS / JKN",
+							"REF_ID": "2",
+							"TEKS": "",
+							"CONFIG": "{\"sep\": {\"regExp\": \"[^a-zA-Z0-9]\", \"maxLength\": 19, \"minLength\": 19}, \"kptl\": 1, \"regExp\": \"[^0-9]\", \"maxLength\": 13, \"minLength\": 13}",
+							"SCORING": "0",
+							"STATUS": "1"
+						},
+						"RUANGAN_RS": {
+							"ID": "102040109",
+							"JENIS": "5",
+							"JENIS_KUNJUNGAN": "1",
+							"REF_ID": "0",
+							"DESKRIPSI": "Poli Mata 3",
+							"TANGGAL": "2024-08-01 08:32:03",
+							"AKSES_PERMINTAAN": "1",
+							"STATUS": "1",
+							"REFERENSI": {
+								"JENIS_KUNJUNGAN": {
+									"TABEL_ID": "171",
+									"JENIS": "15",
+									"ID": "1",
+									"DESKRIPSI": "Rawat Jalan",
+									"REF_ID": "",
+									"TEKS": "",
+									"CONFIG": "{\"o2\": false, \"bhp\": false, \"bon\": false, \"lab\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"rad\": {\"hasil\": false, \"order\": true, \"riwayat\": false}, \"jenis\": 1, \"resep\": {\"order\": true, \"riwayat\": false}, \"konsul\": true, \"mutasi\": false, \"pulang\": false, \"farmasi\": {\"retur\": false, \"layanan\": false}, \"operasi\": true, \"rujukan\": true, \"tindakan\": {\"layanan\": true, \"riwayat\": false}, \"rekammedis\": true, \"dapatDiorder\": false, \"dapatDikonsul\": true}",
+									"SCORING": "0",
+									"STATUS": "1"
+								}
+							}
+						}
+					},
+					"BPJS": {
+						"ID": "124",
+						"KDPOLI": "MAT",
+						"NMPOLI": "MATA",
+						"KDSUBSPESIALIS": "MAT",
+						"NMSUBSPESIALIS": "MATA",
+						"ANTRIAN": "A",
+						"STATUS": "1"
+					}
+				},
+				"PENJAMIN_RUANGAN": "MAT"
+			}
+		},
+		{
+			"ID": "102040301",
+			"DESKRIPSI": "Refraksi",
+			"ANTRIAN": "A",
+			"STATUS": "1",
+			"DEFAULT": "0",
+			"LIMIT_DAFTAR": "1000",
+			"DURASI_PENDAFTARAN": "6",
+			"DURASI_PELAYANAN": "6",
+			"MULAI": "07:00:00",
+			"JUMLAH_MEJA": "1",
+			"PERSENTASE_KOUTA": "80",
+			"PERSENTASE_KOUTA_NON_JKN": "20",
+			"REFERENSI": {
+				"PENJAMIN": null
+			}
+		}
+	]
+}

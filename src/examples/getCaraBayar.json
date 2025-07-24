@@ -1,0 +1,101 @@
+{
+	"success": true,
+	"total": 19,
+	"data": [
+		{
+			"ID": "1",
+			"DESKRIPSI": "Tanpa Asuransi / Umum",
+			"STATUS": "1"
+		},
+		{
+			"ID": "2",
+			"DESKRIPSI": "BPJS / JKN",
+			"STATUS": "1"
+		},
+		{
+			"ID": "3",
+			"DESKRIPSI": "IOM",
+			"STATUS": "1"
+		},
+		{
+			"ID": "5",
+			"DESKRIPSI": "BPJS Ketenagakerjaan",
+			"STATUS": "1"
+		},
+		{
+			"ID": "6",
+			"DESKRIPSI": "Admedika",
+			"STATUS": "1"
+		},
+		{
+			"ID": "7",
+			"DESKRIPSI": "Umum Eksekutif",
+			"STATUS": "1"
+		},
+		{
+			"ID": "8",
+			"DESKRIPSI": "BRI LIFE",
+			"STATUS": "1"
+		},
+		{
+			"ID": "9",
+			"DESKRIPSI": "CAR Life Insurance",
+			"STATUS": "1"
+		},
+		{
+			"ID": "10",
+			"DESKRIPSI": "Prudential Syariah",
+			"STATUS": "1"
+		},
+		{
+			"ID": "11",
+			"DESKRIPSI": "Prudential",
+			"STATUS": "1"
+		},
+		{
+			"ID": "12",
+			"DESKRIPSI": "Fullerton Health",
+			"STATUS": "1"
+		},
+		{
+			"ID": "13",
+			"DESKRIPSI": "Asuransi Sinar Mas",
+			"STATUS": "1"
+		},
+		{
+			"ID": "14",
+			"DESKRIPSI": "Mandiri Inhealth",
+			"STATUS": "1"
+		},
+		{
+			"ID": "15",
+			"DESKRIPSI": "BNI LIFE",
+			"STATUS": "1"
+		},
+		{
+			"ID": "16",
+			"DESKRIPSI": "Asuransi Astra",
+			"STATUS": "1"
+		},
+		{
+			"ID": "17",
+			"DESKRIPSI": "Kimia Farma",
+			"STATUS": "1"
+		},
+		{
+			"ID": "3414",
+			"DESKRIPSI": "BPJS Ketenagakerjaan",
+			"STATUS": "1"
+		},
+		{
+			"ID": "3622",
+			"DESKRIPSI": "Admedika",
+			"STATUS": "1"
+		},
+		{
+			"ID": "3771",
+			"DESKRIPSI": "Umum Eksekutif",
+			"STATUS": "1"
+		}
+	]
+}
