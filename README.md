@@ -1,4 +1,4 @@
-# wa-bot-baileys
+# wa-bot
 
 To install dependencies:
 
