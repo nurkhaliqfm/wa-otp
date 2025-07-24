@@ -1,4 +1,4 @@
-import { AnyMessageContent, proto } from 'baileys';
+import { AnyMessageContent, proto } from "baileys";
 
 export interface IChat {
 	id: string | null | undefined;

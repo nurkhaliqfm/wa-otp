@@ -4,7 +4,7 @@ const pkg = JSON.parse(fs.readFileSync("package.json", "utf-8"));
 
 global.bot = {
 	name: pkg["author"],
-	number: "",
+	number: process.env.OWNER_CONTACT || "",
 	version: pkg["version"],
 	prefix: "./",
 	splitArgs: "|",

@@ -10,10 +10,10 @@ import {
 	jidNormalizedUser,
 	proto,
 	WASocket,
-} from 'baileys';
-import cases from '../cases';
-import { IChat } from 'types/chat';
-import { handleIncomingMessage } from './chat.handler';
+} from "baileys";
+import cases from "../cases";
+import { IChat } from "types/chat";
+import { handleIncomingMessage } from "./chat.handler";
 
 const messagesUpsert = (socket: WASocket, m: proto.IWebMessageInfo) => {
 	if (!m.message) return;
@@ -23,13 +23,13 @@ const messagesUpsert = (socket: WASocket, m: proto.IWebMessageInfo) => {
 	const isNewsletter = isJidNewsletter(chatId)!;
 	const isStory = isJidBroadcast(chatId)!;
 	const senderId = isNewsletter
-		? ''
+		? ""
 		: isGroup || isStory
-		? m.key.participant || jidNormalizedUser(m.participant ?? '')
+		? m.key.participant || jidNormalizedUser(m.participant ?? "")
 		: chatId;
 	const chatType = getContentType(m.message)!;
 	const chatBody =
-		chatType === 'conversation'
+		chatType === "conversation"
 			? m.message.conversation
 			: (m.message[chatType as keyof proto.IMessage] as any)?.caption ||
 			  (m.message[chatType as keyof proto.IMessage] as any)?.text ||
@@ -43,10 +43,10 @@ const messagesUpsert = (socket: WASocket, m: proto.IWebMessageInfo) => {
 							(m.message[chatType as keyof proto.IMessage] as any)
 								?.nativeFlowResponseMessage.paramsJson
 					  ).id
-					: '') ||
-			  '';
+					: "") ||
+			  "";
 	const chatText =
-		chatType === 'conversation'
+		chatType === "conversation"
 			? m.message.conversation
 			: (m.message[chatType as keyof proto.IMessage] as any)?.caption ||
 			  (m.message[chatType as keyof proto.IMessage] as any)?.text ||
@@ -55,7 +55,7 @@ const messagesUpsert = (socket: WASocket, m: proto.IWebMessageInfo) => {
 			  (m.message[chatType as keyof proto.IMessage] as any)?.title ||
 			  (m.message[chatType as keyof proto.IMessage] as any)
 					?.selectedDisplayText ||
-			  '';
+			  "";
 
 	const isCommand = chatBody.trim().startsWith(global.bot.prefix);
 
@@ -76,15 +76,15 @@ const messagesUpsert = (socket: WASocket, m: proto.IWebMessageInfo) => {
 		command: isCommand
 			? chatBody
 					.trim()
-					.normalize('NFKC')
-					.replace(global.bot.prefix, '')
-					.split(' ')[0]
+					.normalize("NFKC")
+					.replace(global.bot.prefix, "")
+					.split(" ")[0]
 					.toLowerCase()
-			: '',
+			: "",
 		args: isCommand
 			? chatBody
 					.trim()
-					.replace(/^\S*\b/g, '')
+					.replace(/^\S*\b/g, "")
 					.split(global.bot.splitArgs)
 					.map((arg: string) => arg.trim())
 					.filter((arg: string) => arg)
@@ -100,7 +100,7 @@ const messagesUpsert = (socket: WASocket, m: proto.IWebMessageInfo) => {
 		},
 	};
 
-	if (senderId.split('@')[0] !== global.owner.number) return;
+	if (senderId.split("@")[0] !== global.owner.number) return;
 
 	return handleIncomingMessage(chatData);
 };

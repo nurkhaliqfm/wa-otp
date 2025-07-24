@@ -1,7 +1,7 @@
 declare global {
 	var bot: {
 		name: string;
-		number: string;
+		number: string | undefined;
 		version: string;
 		prefix: string;
 		splitArgs: string;
